@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+data/
+datasets/
+raw_videos/
+checkpoints/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+results/images/
+results/comparisons/

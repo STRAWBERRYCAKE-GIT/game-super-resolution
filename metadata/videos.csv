@@ -1,0 +1,9 @@
+﻿path,file_name,codec,width,height,fps,duration_s,frames,size_mb,is_1080p,status,error
+data\raw_videos\Roco_scene01_1080p.mp4,Roco_scene01_1080p.mp4,h264,1920,1080,60.0,188.65,11319,164.18,True,ok,
+data\raw_videos\Roco_scene02_1080p.mp4,Roco_scene02_1080p.mp4,h264,1920,1080,60.0,192.583,11555,203.46,True,ok,
+data\raw_videos\Roco_scene03_1080p.mp4,Roco_scene03_1080p.mp4,h264,1920,1080,60.0,36.917,2215,42.98,True,ok,
+data\raw_videos\Roco_scene04_1080p.mp4,Roco_scene04_1080p.mp4,h264,1920,1080,60.0,31.033,1862,29.63,True,ok,
+data\raw_videos\Roco_scene05_1080p.mp4,Roco_scene05_1080p.mp4,h264,1920,1080,60.0,70.783,4247,77.03,True,ok,
+data\raw_videos\Roco_scene06_1080p.mp4,Roco_scene06_1080p.mp4,h264,1920,1080,60.0,102.033,6122,108.62,True,ok,
+data\raw_videos\Roco_scene07_1080p.mp4,Roco_scene07_1080p.mp4,h264,1920,1080,60.0,115.617,6937,81.95,True,ok,
+data\raw_videos\Roco_scene08_1080p.mp4,Roco_scene08_1080p.mp4,h264,1920,1080,60.0,159.4,9564,60.53,True,ok,
