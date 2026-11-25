@@ -1,0 +1,15 @@
+{
+  "implementation": "CPU NumPy Ours-S 4D simplex, tiled vectorization",
+  "splits": "metadata\\splits_X4_aligned.csv",
+  "split": "test",
+  "images": 142,
+  "method": "srlut_pretrained",
+  "scale": 4,
+  "sampling_bits": 4,
+  "tile_rows": 32,
+  "warmup": 1,
+  "lut": "weights\\srlut_pretrained_X4_exported.npy",
+  "lut_sha256": "4ad4656af572e02147f037278d6c0d56aa64a2e01276ee9ea0303c8e483aa583",
+  "numpy": "2.4.6",
+  "timing_scope": "four LUT passes plus RGB output conversion; excludes LUT load, image decode and PNG save"
+}

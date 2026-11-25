@@ -1,0 +1,163 @@
+{
+  "status": "completed",
+  "project_root": "E:\\ProfessionalPractice\\game-super-resolution",
+  "pure_frames": [
+    {
+      "hr_path": "data/frames/HR/person01_clip002__f00000000.png",
+      "stem": "person01_clip002__f00000000",
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hr_path": "data/frames/HR/person01_clip003__f00000000.png",
+      "stem": "person01_clip003__f00000000",
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hr_path": "data/frames/HR/person01_clip004__f00000000.png",
+      "stem": "person01_clip004__f00000000",
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hr_path": "data/frames/HR/person01_clip005__f00000000.png",
+      "stem": "person01_clip005__f00000000",
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hr_path": "data/frames/HR/person01_clip006__f00000000.png",
+      "stem": "person01_clip006__f00000000",
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hr_path": "data/frames/HR/person01_clip007__f00000000.png",
+      "stem": "person01_clip007__f00000000",
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hr_path": "data/frames/HR/person01_clip008__f00000000.png",
+      "stem": "person01_clip008__f00000000",
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "removed_image_paths": [
+    "data/frames/HR/person01_clip002__f00000000.png",
+    "data/frames/HR/person01_clip003__f00000000.png",
+    "data/frames/HR/person01_clip004__f00000000.png",
+    "data/frames/HR/person01_clip005__f00000000.png",
+    "data/frames/HR/person01_clip006__f00000000.png",
+    "data/frames/HR/person01_clip007__f00000000.png",
+    "data/frames/HR/person01_clip008__f00000000.png",
+    "data/frames/LR_bicubic_X2/person01_clip002__f00000000.png",
+    "data/frames/LR_bicubic_X2/person01_clip003__f00000000.png",
+    "data/frames/LR_bicubic_X2/person01_clip004__f00000000.png",
+    "data/frames/LR_bicubic_X2/person01_clip005__f00000000.png",
+    "data/frames/LR_bicubic_X2/person01_clip006__f00000000.png",
+    "data/frames/LR_bicubic_X2/person01_clip007__f00000000.png",
+    "data/frames/LR_bicubic_X2/person01_clip008__f00000000.png",
+    "data/frames/LR_bicubic_X4/person01_clip002__f00000000.png",
+    "data/frames/LR_bicubic_X4/person01_clip003__f00000000.png",
+    "data/frames/LR_bicubic_X4/person01_clip004__f00000000.png",
+    "data/frames/LR_bicubic_X4/person01_clip005__f00000000.png",
+    "data/frames/LR_bicubic_X4/person01_clip006__f00000000.png",
+    "data/frames/LR_bicubic_X4/person01_clip007__f00000000.png",
+    "data/frames/LR_bicubic_X4/person01_clip008__f00000000.png",
+    "results/images/bicubic_X2/person01_clip007__f00000000.png",
+    "results/images/bicubic_X4/person01_clip007__f00000000.png"
+  ],
+  "csv_changes": [
+    {
+      "path": "metadata/splits_X2.csv",
+      "removed_rows": 7,
+      "remaining_rows": 916,
+      "remaining_means": [],
+      "split_frame_counts": {
+        "val": 156,
+        "train": 618,
+        "test": 142
+      }
+    },
+    {
+      "path": "metadata/splits_X4.csv",
+      "removed_rows": 7,
+      "remaining_rows": 916,
+      "remaining_means": [],
+      "split_frame_counts": {
+        "val": 156,
+        "train": 618,
+        "test": 142
+      }
+    },
+    {
+      "path": "results/metrics/bicubic_X2_quality.csv",
+      "removed_rows": 1,
+      "remaining_rows": 142,
+      "remaining_means": [
+        {
+          "method": "bicubic",
+          "rows": 142,
+          "mean_psnr": 32.3075675774648,
+          "psnr_count": 142,
+          "mean_ssim": 0.9400349647887319,
+          "ssim_count": 142
+        }
+      ],
+      "split_frame_counts": {}
+    },
+    {
+      "path": "results/metrics/bicubic_X2_timings.csv",
+      "removed_rows": 1,
+      "remaining_rows": 142,
+      "remaining_means": [
+        {
+          "method": "bicubic",
+          "rows": 142,
+          "mean_time_ms": 50.610881690140836,
+          "time_ms_count": 142
+        }
+      ],
+      "split_frame_counts": {}
+    },
+    {
+      "path": "results/metrics/bicubic_X4_timings.csv",
+      "removed_rows": 1,
+      "remaining_rows": 142,
+      "remaining_means": [
+        {
+          "method": "bicubic",
+          "rows": 142,
+          "mean_time_ms": 42.739063380281685,
+          "time_ms_count": 142
+        }
+      ],
+      "split_frame_counts": {}
+    }
+  ],
+  "summary_tables_to_regenerate": []
+}

@@ -1,0 +1,613 @@
+{
+  "input_csv": "E:\\ProfessionalPractice\\game-super-resolution\\metadata\\splits_X4.csv",
+  "input_csv_sha256": "82fecb24a05dd5e4b79c6232b29dd78fae1509323eb1b344811730675fd39f1a",
+  "output_csv": "E:\\ProfessionalPractice\\game-super-resolution\\metadata\\splits_X4_aligned.csv",
+  "scale": 4,
+  "pairs": 916,
+  "repaired_pairs": 26,
+  "crop": "top-left anchored; remove width%4 on right and height%4 on bottom",
+  "degradation": "Pillow RGB Bicubic from mod-cropped HR",
+  "pillow": "12.3.0",
+  "split_assignments_changed": false,
+  "original_images_overwritten": false,
+  "changes": [
+    {
+      "image": "person02_clip001__f00000000.png",
+      "split": "train",
+      "hr_before": [
+        2880,
+        1610
+      ],
+      "hr_after": [
+        2880,
+        1608
+      ],
+      "lr_before": [
+        720,
+        402
+      ],
+      "lr_after": [
+        720,
+        402
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip001__f00000000.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip001__f00000000.png"
+    },
+    {
+      "image": "person02_clip001__f00000060.png",
+      "split": "train",
+      "hr_before": [
+        2880,
+        1610
+      ],
+      "hr_after": [
+        2880,
+        1608
+      ],
+      "lr_before": [
+        720,
+        402
+      ],
+      "lr_after": [
+        720,
+        402
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip001__f00000060.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip001__f00000060.png"
+    },
+    {
+      "image": "person02_clip001__f00000120.png",
+      "split": "train",
+      "hr_before": [
+        2880,
+        1610
+      ],
+      "hr_after": [
+        2880,
+        1608
+      ],
+      "lr_before": [
+        720,
+        402
+      ],
+      "lr_after": [
+        720,
+        402
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip001__f00000120.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip001__f00000120.png"
+    },
+    {
+      "image": "person02_clip001__f00000180.png",
+      "split": "train",
+      "hr_before": [
+        2880,
+        1610
+      ],
+      "hr_after": [
+        2880,
+        1608
+      ],
+      "lr_before": [
+        720,
+        402
+      ],
+      "lr_after": [
+        720,
+        402
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip001__f00000180.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip001__f00000180.png"
+    },
+    {
+      "image": "person02_clip001__f00000240.png",
+      "split": "train",
+      "hr_before": [
+        2880,
+        1610
+      ],
+      "hr_after": [
+        2880,
+        1608
+      ],
+      "lr_before": [
+        720,
+        402
+      ],
+      "lr_after": [
+        720,
+        402
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip001__f00000240.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip001__f00000240.png"
+    },
+    {
+      "image": "person02_clip001__f00000300.png",
+      "split": "train",
+      "hr_before": [
+        2880,
+        1610
+      ],
+      "hr_after": [
+        2880,
+        1608
+      ],
+      "lr_before": [
+        720,
+        402
+      ],
+      "lr_after": [
+        720,
+        402
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip001__f00000300.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip001__f00000300.png"
+    },
+    {
+      "image": "person02_clip001__f00000360.png",
+      "split": "train",
+      "hr_before": [
+        2880,
+        1610
+      ],
+      "hr_after": [
+        2880,
+        1608
+      ],
+      "lr_before": [
+        720,
+        402
+      ],
+      "lr_after": [
+        720,
+        402
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip001__f00000360.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip001__f00000360.png"
+    },
+    {
+      "image": "person02_clip001__f00000420.png",
+      "split": "train",
+      "hr_before": [
+        2880,
+        1610
+      ],
+      "hr_after": [
+        2880,
+        1608
+      ],
+      "lr_before": [
+        720,
+        402
+      ],
+      "lr_after": [
+        720,
+        402
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip001__f00000420.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip001__f00000420.png"
+    },
+    {
+      "image": "person02_clip001__f00000480.png",
+      "split": "train",
+      "hr_before": [
+        2880,
+        1610
+      ],
+      "hr_after": [
+        2880,
+        1608
+      ],
+      "lr_before": [
+        720,
+        402
+      ],
+      "lr_after": [
+        720,
+        402
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip001__f00000480.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip001__f00000480.png"
+    },
+    {
+      "image": "person02_clip001__f00000540.png",
+      "split": "train",
+      "hr_before": [
+        2880,
+        1610
+      ],
+      "hr_after": [
+        2880,
+        1608
+      ],
+      "lr_before": [
+        720,
+        402
+      ],
+      "lr_after": [
+        720,
+        402
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip001__f00000540.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip001__f00000540.png"
+    },
+    {
+      "image": "person02_clip001__f00000600.png",
+      "split": "train",
+      "hr_before": [
+        2880,
+        1610
+      ],
+      "hr_after": [
+        2880,
+        1608
+      ],
+      "lr_before": [
+        720,
+        402
+      ],
+      "lr_after": [
+        720,
+        402
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip001__f00000600.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip001__f00000600.png"
+    },
+    {
+      "image": "person02_clip001__f00000660.png",
+      "split": "train",
+      "hr_before": [
+        2880,
+        1610
+      ],
+      "hr_after": [
+        2880,
+        1608
+      ],
+      "lr_before": [
+        720,
+        402
+      ],
+      "lr_after": [
+        720,
+        402
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip001__f00000660.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip001__f00000660.png"
+    },
+    {
+      "image": "person02_clip011__f00000000.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000000.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000000.png"
+    },
+    {
+      "image": "person02_clip011__f00000060.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000060.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000060.png"
+    },
+    {
+      "image": "person02_clip011__f00000120.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000120.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000120.png"
+    },
+    {
+      "image": "person02_clip011__f00000180.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000180.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000180.png"
+    },
+    {
+      "image": "person02_clip011__f00000240.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000240.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000240.png"
+    },
+    {
+      "image": "person02_clip011__f00000300.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000300.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000300.png"
+    },
+    {
+      "image": "person02_clip011__f00000360.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000360.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000360.png"
+    },
+    {
+      "image": "person02_clip011__f00000420.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000420.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000420.png"
+    },
+    {
+      "image": "person02_clip011__f00000480.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000480.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000480.png"
+    },
+    {
+      "image": "person02_clip011__f00000540.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000540.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000540.png"
+    },
+    {
+      "image": "person02_clip011__f00000600.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000600.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000600.png"
+    },
+    {
+      "image": "person02_clip011__f00000660.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000660.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000660.png"
+    },
+    {
+      "image": "person02_clip011__f00000720.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000720.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000720.png"
+    },
+    {
+      "image": "person02_clip011__f00000780.png",
+      "split": "train",
+      "hr_before": [
+        2878,
+        1618
+      ],
+      "hr_after": [
+        2876,
+        1616
+      ],
+      "lr_before": [
+        719,
+        404
+      ],
+      "lr_after": [
+        719,
+        404
+      ],
+      "lr_reused_after_pixel_check": true,
+      "hr_path": "data/frames/aligned_X4/HR/person02_clip011__f00000780.png",
+      "lr_path": "data/frames/LR_bicubic_X4/person02_clip011__f00000780.png"
+    }
+  ]
+}
